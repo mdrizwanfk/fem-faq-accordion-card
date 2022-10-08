@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section id="faq-container">
+      <div id="illustration-images">
+        <img
+          class="illustration-woman-online"
+          srcset="./images/illustration-woman-online-mobile.svg 600w, ./images/illustration-woman-online-desktop.svg 800w"
+          sizes="(min-width: 992px) 800px,
+                600px"
+          src="./images/illustration-woman-online-mobile.svg"
+          alt="illustration-woman-online">
+        <img
+          class="bg-pattern"
+          srcset="./images/bg-pattern-mobile.svg 600w, ./images/bg-pattern-desktop.svg 800w"
+          sizes="(min-width: 992px) 800px,
+                600px"
+          src="./images/bg-pattern-mobile.svg"
+          alt="bg-pattern">
+      </div>
+      <h1>FAQ</h1>
+      <section id="accordian">
+        <article id="q1" class="accordian-item">
+          <div class="question"><h2>How many team members can I invite?</h2><img  class="toggle expand" src="./images/icon-arrow-down.svg" alt="expand"></div>
+          <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</div>
+        </article>
+        <article id="q2" class="accordian-item">
+          <div class="question"><h2>What is the maximum file upload size?</h2><img  class="toggle expand" src="./images/icon-arrow-down.svg" alt="expand"></div>
+          <div class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+        </article>
+        <article id="q3" class="accordian-item">
+          <div class="question"><h2>How do I reset my password?</h2><img  class="toggle expand" src="./images/icon-arrow-down.svg" alt="expand"></div>
+          <div class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</div>
+        </article>
+        <article id="q4" class="accordian-item">
+          <div class="question"><h2>Can I cancel my subscription?</h2><img  class="toggle expand" src="./images/icon-arrow-down.svg" alt="expand"></div>
+          <div class="answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
+        </article>
+        <article id="q5" class="accordian-item">
+          <div class="question"><h2>Do you provide additional support?</h2><img  class="toggle expand" src="./images/icon-arrow-down.svg" alt="expand"></div>
+          <div class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+        </article>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/mdrizwanfk" target="_blank">mdrizwanfk</a>.
+    </div>
+  </footer>
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
