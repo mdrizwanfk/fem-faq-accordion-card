@@ -185,6 +185,16 @@ body {
   flex-grow: 2;
 }
 
+.accordian-item .question h2:hover {
+  cursor: pointer;
+  color: var(--clr-p-t-sr);
+}
+
+.accordian-item .question h2.bold {
+  color: var(--clr-n-t-vdgb);
+  font-weight: var(--fw-700);
+}
+
 .accordian-item .question .expand {
 }
 
