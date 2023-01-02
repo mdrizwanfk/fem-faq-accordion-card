@@ -16,8 +16,20 @@ const toggleAccordian = (e) => {
 
 const collapseAllQuestions = ({ ignore }) => {
   accordianAnswers.forEach((answerElement) => {
-    console.log("ans element: ", answerElement);
-    if (answerElement.id !== ignore) answerElement.classList.remove("show");
+    if (answerElement.id !== ignore) {
+      answerElement.classList.remove("show");
+      answerElement.classList.remove("bold");
+    }
+  });
+
+  const accordianElementHeadings = document.querySelectorAll(".question h2");
+  accordianElementHeadings.forEach((headingElement) => {
+    headingElement.classList.remove("bold");
+  });
+
+  const accordianElementImg = document.querySelectorAll(".question .arrow");
+  accordianElementImg.forEach((imageElement) => {
+    imageElement.classList.remove("collapse");
   });
 };
 
