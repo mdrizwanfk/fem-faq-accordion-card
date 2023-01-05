@@ -99,9 +99,10 @@ svg {
   margin-bottom: 1rem;
   font-size: 11px;
   text-align: center;
+  color: var(--clr-n-div-lgb);
 }
 .attribution a {
-  color: #000;
+  color: var(--clr-p-t-sr);
 }
 
 /* Utility Classes */
@@ -216,6 +217,7 @@ body {
 @media screen and (min-width: 992px) {
   #faq-container {
     margin: 0rem;
+    margin-bottom: 2rem;
     min-width: 90rem;
     display: flex;
     align-items: center;
