@@ -152,37 +152,8 @@ body {
   transform: translate(-50%, 0);
 }
 
-@media screen and (min-width: 992px) {
-  #illustration-image {
-    height: 14rem;
-    width: 100%;
-    position: relative;
-    background-color: greenyellow;
-  }
-
-  #illustration-image-bg {
-    height: 14rem;
-    width: 100%;
-    position: relative;
-    background-color: firebrick;
-  }
-
-  .illustration-woman-online {
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 30rem;
-    position: absolute;
-    top: -14rem;
-  }
-
-  .bg-pattern {
-    width: 30rem;
-    position: absolute;
-    /* top: -1rem; */
-    top: 0rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
+#illustration-box-desktop {
+  display: none;
 }
 
 #faq-container h1 {
@@ -247,15 +218,49 @@ body {
     margin: 0rem;
     min-width: 90rem;
     display: flex;
+    align-items: center;
   }
 
   #faq-content {
-    width: 60rem;
-    height: 50rem;
+    width: 120rem;
     padding: 4rem 6rem;
   }
 
   #accordian {
     padding: 3rem 0;
+  }
+
+  #illustration-image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: greenyellow;
+  }
+
+  #illustration-image-bg {
+    height: 14rem;
+    width: 100%;
+    position: relative;
+    background-color: firebrick;
+  }
+
+  #illustration-woman-online {
+    position: absolute;
+    width: 100%;
+    left: 10rem;
+  }
+
+  #bg-pattern {
+    width: 200rem;
+    position: absolute;
+    top: -23rem;
+    left: -33rem;
+    transform: scale(2.5);
+  }
+
+  #illustration-box-desktop {
+    display: block;
+    position: absolute;
+    transform: translate();
   }
 }
