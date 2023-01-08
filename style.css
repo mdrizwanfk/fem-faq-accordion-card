@@ -236,7 +236,6 @@ body {
     margin-bottom: 2rem;
     min-width: 90rem;
     display: flex;
-    align-items: center;
   }
 
   #faq-content {
@@ -293,7 +292,7 @@ body {
   #desktop-illustration {
     display: block;
     width: 85rem;
-    height: 55rem;
+    height: 53rem;
     position: relative;
     background-image: url(./images/illustration-woman-online-desktop.svg),
       url(./images/bg-pattern-desktop.svg);
